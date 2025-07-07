@@ -345,3 +345,217 @@
 
 ---
 
+
+### 🌐 `ifconfig -a`
+
+- **Meaning**: Shows **all** network interfaces (active & inactive).
+    
+- **Purpose**: Full view of your network devices.
+    
+- **Example**:
+    
+    ```bash
+    ifconfig -a
+    ```
+    
+
+---
+
+### ⚙️ `ethtool eth0`
+
+- **Meaning**: Shows **hardware settings** of the Ethernet interface.
+    
+- **Purpose**: Check link speed, cable status.
+    
+- **Example**:
+    
+    ```bash
+    sudo ethtool eth0
+    ```
+    
+
+---
+
+### 📶 `ethtool wlan0`
+
+- **Same as above**, but for wireless interface.
+    
+- **Example**:
+    
+    ```bash
+    sudo ethtool wlan0
+    ```
+    
+
+---
+
+### 📡 `ping`
+
+- **Meaning**: Checks if a host (like a website or server) is reachable.
+    
+- **Purpose**: Basic **internet test**.
+    
+- **Example**:
+    
+    ```bash
+    ping google.com
+    ```
+    
+
+---
+
+### 🌍 `whois google.com`
+
+- **Meaning**: Shows domain info like owner, registrar, expiry.
+    
+- **Purpose**: Investigate websites or IP ownership.
+    
+- **Example**:
+    
+    ```bash
+    whois google.com
+    ```
+    
+
+---
+
+### 🧠 `dig google.com`
+
+- **Meaning**: DNS lookup – shows how your system finds the IP address.
+    
+- **Purpose**: Troubleshoot domain issues.
+    
+- **Example**:
+    
+    ```bash
+    dig google.com
+    ```
+    
+
+---
+
+### 🔁 `dig -x 142.21.1.4`
+
+- **Meaning**: **Reverse DNS lookup** – IP → Domain name.
+    
+- **Example**:
+    
+    ```bash
+    dig -x 142.21.1.4
+    ```
+    
+
+---
+
+### 🔎 `nslookup`
+
+- **Meaning**: Another DNS tool like `dig`.
+    
+- **Example**:
+    
+    ```bash
+    nslookup google.com
+    ```
+    
+
+---
+
+### 📨 `host google.com`
+
+- **Meaning**: Shows domain's IP, mail server (MX), and DNS.
+    
+- **Example**:
+    
+    ```bash
+    host google.com
+    ```
+    
+
+---
+
+### 📊 `netstat -nul`
+
+- **Meaning**: Shows **open UDP ports**.
+    
+- **Use**: Check what services are listening.
+    
+- **Example**:
+    
+    ```bash
+    netstat -nul
+    ```
+    
+
+---
+
+### 🌐 `ftp ftp.server.com`
+
+- **Meaning**: Connects to a remote **FTP server**.
+    
+- **Example**:
+    
+    ```bash
+    ftp ftp.gnu.org
+    ```
+    
+
+---
+
+### 🔄 `tftp`
+
+- **Meaning**: Lightweight version of FTP, used in embedded systems.
+    
+- **Example**:
+    
+    ```bash
+    tftp
+    ```
+    
+
+---
+
+### 🔐 `sftp`
+
+- **Meaning**: Secure File Transfer Protocol (over SSH).
+    
+- **Example**:
+    
+    ```bash
+    sftp user@host
+    ```
+    
+
+---
+
+### 🧵 `telnet`
+
+- **Meaning**: Connect to another computer via **terminal session**.
+    
+- **Use**: Used to test open ports.
+    
+- **Example**:
+    
+    ```bash
+    telnet google.com 80
+    ```
+    
+
+---
+
+### 🌐 `curl`
+
+- **Meaning**: Fetches data from a website via CLI.
+    
+- **Purpose**: API testing, downloading files.
+    
+- **Example**:
+    
+    ```bash
+    curl https://example.com
+    ```
+    
+
+---
+
+
+
